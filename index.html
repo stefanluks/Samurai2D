@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="theme-color" content="#171b1a">
+	<title>Ronin das Dunas</title>
+	<link rel="stylesheet" href="config/style.css">
+	<script src="config/config.js" defer></script>
+	<script src="models/player.model.js" defer></script>
+	<script src="models/enemy.model.js" defer></script>
+	<script src="models/item-drop.model.js" defer></script>
+	<script src="models/audio.model.js" defer></script>
+	<script src="game.js" defer></script>
+</head>
+<body>
+	<main class="game-shell" id="gameShell">
+		<canvas id="gameCanvas" width="960" height="540" tabindex="0" aria-label="Ronin das Dunas. Use A e D ou as setas esquerda e direita para andar; use Espaço para atacar."></canvas>
+	</main>
+	<input id="scoreNameInput" class="keyboard-input" type="text" maxlength="20" autocomplete="name" aria-label="Nome do jogador para salvar a pontuação" tabindex="-1">
+</body>
+</html>
